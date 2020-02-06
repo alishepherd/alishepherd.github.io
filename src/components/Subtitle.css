@@ -1,3 +1,5 @@
 .Subtitle {
     font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+    flex: 0 0 100%;
+    
 }

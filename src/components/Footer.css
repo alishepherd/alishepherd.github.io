@@ -1,0 +1,7 @@
+.Footer {
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #d6d6d6;
+}

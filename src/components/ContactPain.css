@@ -1,0 +1,14 @@
+.ContactPain {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+    background: lightblue url("/img/catscream.jpg") no-repeat fixed center;
+    background-size: cover;
+    min-height: 500px;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    font-weight: 800;
+}

@@ -16,17 +16,25 @@ function App() {
       <header className="App-header">
         <Masthead />
       </header>
+      <div style={{ padding: '50px', fontWeight: 'bolder', fontSize:'30px'}} >
+        <Subtitle subtitle="Do the bare minimum you have to do" />
+      </div>
+      <hr />
       <MockeryBlock>
-      <Subtitle subtitle="Do the bare minimum you have to do" />
-        <MockeryBlockColumn heading="HTML" text="I do some stuff with HTML" />
-        <MockeryBlockColumn heading="CSS" text="I'm your gal for CSS stuff" />
-        <MockeryBlockColumn heading="React" text="Why did the child component have such great self-esteem? Because its parent kept giving it props!" />
+
+        <MockeryBlockColumn heading="HTML" text="I do some stuff with HTML" headerImage="/img/HTMLimg.png" />
+        <MockeryBlockColumn heading="CSS" text="I'm your gal for CSS stuff" headerImage="/img/CSSimg.png" />
+        <MockeryBlockColumn heading="React" text="Why did the child component have such great self-esteem? Because its parent kept giving it props!" headerImage="/img/REACTimg.png" />
       </MockeryBlock>
+      <hr />
+      <div style={{ padding: '50px', fontWeight: 'bolder', fontSize: '30px'}} >
+        <Subtitle subtitle="Here's what I bring to the table:" />
+      </div>
       <MockeryBlock>
-        <MockeryBlockColumn />
-        <MockeryBlockColumn />
-        <MockeryBlockColumn />
-        <MockeryBlockColumn />
+        <MockeryBlockColumn heading="Hiring💁" text="I can hire people to do this stuff" />
+        <MockeryBlockColumn heading="Sarcasm😏" text="A real sense of humour brought to any project" />
+        <MockeryBlockColumn heading="11x Dev🤓" text="Even better than a 10x Developer" />
+        <MockeryBlockColumn heading="Spark Joy💥" text="Do what sparks joy in your life, leave the rest to HeyAli Solutions Unltd" />
       </MockeryBlock>
       <ContactPain />
       <Footer />

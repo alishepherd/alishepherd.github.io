@@ -1,0 +1,6 @@
+.MockeryBlock {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
